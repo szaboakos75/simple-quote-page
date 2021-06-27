@@ -1,16 +1,33 @@
-body {
-  background: url(assets/freedom.jpg) no-repeat center center fixed;
+@media  (min-width: 480px) {
+  body {
+    background: url(assets/freedom.jpg) no-repeat center center fixed;
+  }
+  
+  h1 {
+    font-family: "Raleway";
+    font-weight: normal;
+    font-variant-caps: small-caps;
+    position: absolute;
+    top: 5vw;
+    font-size: 3.0em;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  
+  h1, p {
+    text-align: center;
+  }
+  
+  p {
+    font-weight: bold;
+    font-style: oblique ;
+    margin-top: 20vw;
+    font-size: larger;
+  }
 }
 
-h1 {
-  font-family: "Raleway";
-  font-weight: normal;
-  font-variant-caps: small-caps;
-  position: absolute;
-  top: 5vw;
-  font-size: 3.0em;
-  margin-left: 5%;
-  margin-right: 5%;
+body {
+  background: url(assets/freedom.jpg) no-repeat center center fixed;
 }
 
 h1, p {
@@ -21,5 +38,13 @@ p {
   font-weight: bold;
   font-style: oblique ;
   margin-top: 20vw;
-  font-size: larger;
+  font-size: normal;
+}
+
+h1 {
+  font-family: "Raleway";
+    font-weight: normal;
+    font-variant-caps: small-caps;
+    margin-left: 5%;
+    margin-right: 5%;
 }
