@@ -1,0 +1,11 @@
+body {
+  background: url(assets/freedom.jpg) no-repeat center center fixed;
+}
+
+h1 {
+  font-family: "Raleway";
+  font-weight: normal;
+  font-variant-caps: small-caps;
+  position: absolute;
+  top: 100px;
+}
