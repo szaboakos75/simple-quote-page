@@ -24,6 +24,21 @@
     margin-top: 20vw;
     font-size: larger;
   }
+
+  ul {
+    position: absolute;
+    top: 90%;
+    list-style: none;
+  }
+  
+  li {
+    display: inline;
+    padding: 0px 5px 0px 0px;
+  }
+  a {
+    color: blue;
+    background-color: rgba(217, 217, 217, 0.8);
+  }
 }
 
 body {
