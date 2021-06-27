@@ -7,9 +7,9 @@ h1 {
   font-weight: normal;
   font-variant-caps: small-caps;
   position: absolute;
-  top: 70px;
+  top: 5vw;
 
-  font-size: 300%;
+  font-size: 3.5em;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -21,6 +21,6 @@ h1, p {
 p {
   font-weight: bold;
   font-style: oblique ;
-  margin-top: 350px;
+  margin-top: 20vw;
   font-size: larger;
 }
